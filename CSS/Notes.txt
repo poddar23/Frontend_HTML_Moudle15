@@ -1,0 +1,310 @@
+What is CSS?
+Ans. CSS stands for cascading style sheet
+CSS is used to design HTML tags
+CSS is a widely used language on the web.
+
+CSS Syntax  selector p{color:black}
+
+CSS Syntax
+
+Selector: Selector indicates the HTML element you want to style. It could be any tag like <h1>, <title>
+Declaration Block: The declaration block can contain one or more declaration separated by a semicolon
+
+Property: A property is a type of attribute of HTML element. It could be color,border etc.
+value: Values are assigned to CSS property. In the above example, value "yellow" is assigned to color property
+
+How to add CSS inline CSS
+<h1> style="color:red">Write your first CSS Example</h1>
+
+How to add CSS internal CSS Syntax
+
+<head>
+<style>
+h1{
+    color:white;
+    padding:5px;
+}
+
+</style>
+</head>
+
+
+How to add CSS external CSS
+Syntax:
+<head>
+<link rel="stylesheet"href="style.css>
+</head>
+
+CSS Selector
+CSS Selector are used to select the content you want to style.
+Selector are the part of CSS rule set. CSS selecor select HTML elements according to its id, class, type, attribute etc
+Types of CSS Selector
+CSS Universal selector
+CSS Element Selector
+Css Id selector 
+Css Class Selector
+Css Group selector
+Css Descendant selector
+
+CSS Universal Selector
+
+The universal selector is used as a wildcard character. It selects all the elements on the pages
+
+Syntax:
+<style>
+*{
+    color:green;
+    font-size:20px;
+}
+
+CSS Element Selector
+The element selector selects the HTML elements by name
+Syntax:
+<style> p{
+    text-align:center;
+    color:blue;
+}
+</style>
+
+
+CSS id selector
+The id selector selects the id attribute of an HTML elements to select a specific element. An id is alwaysunique within
+the page so it us chosen to select a single unique element 
+It is written with the hash character(#)
+
+Syntax
+#para1{
+    text-align:
+    center:color:
+    blue;
+
+}
+
+CSS Class selector for specificelemts 
+if you want to specify that only specific HTML elements should be affected then you should use the elements name 
+with class selector
+syntax:
+<style>
+p.center{
+    text-align:
+    center;color:
+    blue;
+}
+</style>
+<p class="center"> this paragraph is blue and center - aligned.</p>
+
+CSS Group Selector
+The grouping selector is used to select all the elemensts with the same style Definition
+Grouping selector is used to minimize the code. commas are used to separate each selector in grouping 
+h1,h2,p
+{
+    text-align:center;color:
+    blue;
+}
+CSS Combinators 
+CSS Text Transform 
+This CSS property allows us to change the case of the text. It is used to control the 
+text capitalization. This CSS property can be used to make the appearanc of text in all-lowercase or all-uppercase or can convert the
+first character of each word to each word to uppercase 
+
+Syntax 
+Text-transform: capitalizel| uppercase| lowercase |none| initial| inherit;
+
+CSS Font Variant 
+CSS font variant property specifies how to set font variant of an element. It may
+be normal and small - caps
+
+CSS Font Weight
+CSS font weight property defines the weight of the font and specify that how bold a font
+is. The possible values of font weight may be normal, bold, bolder, lighter or number 
+
+CSS font Stretch
+The font-stretch property in CSS allows us to select a normal, expanded, or condensed face
+from the font's family. This property sets the text wide or narrower compare to the default
+width of the font.It will not work on any font but only works on the font-family
+that has a width-variant face.
+
+
+CSS Background
+CSS background property is used to define the background effects on element. There are 
+5 CSS background properties that affects the HTML elements:
+1. background-color
+2. background-image
+3. background-repeat
+4 background-attachment
+5. background-position
+
+Background color
+The backgtound-color property is used to specify the background color of the element
+
+Background image
+The background-image property is used to set an image as a background of an element
+. By default the image covers the entire element
+
+CSS background - repeat
+by default the background image property repeats the background image horizontally
+and vertically . Some images are repeated only horizontally or vertically 
+ 
+ CSS background attachment
+ The background attachment property is used to specify if the background image is 
+ fixed or scroll with the rest of the page in browser window. if you set fixedthe 
+ background image then the image will not move during scrolling in the browser 
+
+ CSS background position 
+ The background position property is used to define the initial position of the 
+ background image . By default the background image is placed on the top - left 
+ of the webpage. You can set the position as center top bottom left right 
+
+CSS border 
+The CSS border is a shorthand property used to set the border on an element 
+The CSS border properties are used to specify the style, color and size of the 
+border 
+
+CSS Gradient 
+CSS linear Gradient 
+CSS gradients let you display smooth transitions between two or more specified colors.
+
+CSS defines three types of gradients:
+
+Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point)
+
+CSS Linear Gradients
+To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
+
+Syntax
+background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+
+CSS Radial Gradients
+A radial gradient is defined by its center.
+
+To create a radial gradient you must also define at least two color stops.
+
+Syntax
+background-image: radial-gradient(shape size at position, start-color, ..., last-color);
+
+CSS Conic Gradients
+A conic gradient is a gradient with color transitions rotated around a center point.
+
+To create a conic gradient you must define at least two colors.
+
+Syntax
+background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);
+
+CSS RGB Colors
+An RGB color value represents RED, GREEN, and BLUE light sources.
+
+RGB Value
+In CSS, a color can be specified as an RGB value, using this formula:
+
+rgb(red, green, blue)
+
+Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+
+For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
+
+To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+
+To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+
+RGBA Value
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.
+
+An RGBA color value is specified with:
+
+rgba(red, green, blue, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+CSS HEX Colors
+
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.
+
+HEX Value
+In CSS, a color can be specified using a hexadecimal value in the form:
+
+#rrggbb
+
+Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+
+For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+
+To display black, set all values to 00, like this: #000000.
+
+To display white, set all values to ff, like this: #ffffff.  
+Digit HEX Value
+Sometimes you will see a 3-digit hex code in the CSS source.
+
+The 3-digit hex code is a shorthand for some 6-digit hex codes.
+
+The 3-digit hex code has the following form:
+
+#rgb
+
+Where r, g, and b represent the red, green, and blue components with values between 0 and f.
+
+The 3-digit hex code can only be used when both the values (RR, GG, and BB) are the same for each component. So, if we have #ff00cc, it can be written like this: #f0c.
+CSS HSL Colors
+HSL Value
+In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+hsl(hue, saturation, lightness)
+
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+
+Lightness is also a percentage. 0% is black, 50% is neither light or dark, 100% is white
+
+CSS Colors
+Colors in CSS can be specified by the following methods:
+
+Hexadecimal colors
+Hexadecimal colors with transparency
+RGB colors
+RGBA colors
+HSL colors
+HSLA colors
+Predefined/Cross-browser color names
+With the currentcolor keyword
+Hexadecimal Colors
+A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF.
+
+For example, the #0000ff value is rendered as blue, because the blue component is set to its highest value (ff) and the others are set to 00.
+Hexadecimal Colors With Transparency
+A hexadecimal color is specified with: #RRGGBB. To add transparency, add two additional digits between 00 and FF.
+
+RGB Colors
+An RGB color value is specified with the rgb() function, which has the following syntax:
+
+rgb(red, green, blue)
+
+Each parameter (red, green, and blue) defines the intensity of the color and can be an integer between 0 and 255 or a percentage value (from 0% to 100%).
+
+For example, the rgb(0,0,255) value is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.
+
+Also, the following values define equal color: rgb(0,0,255) and rgb(0%,0%,100%).
+RGBA Colors
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity of the object.
+
+An RGBA color is specified with the rgba() function, which has the following syntax:
+
+rgba(red, green, blue, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque)
+HSL Colors
+HSL stands for hue, saturation, and lightness - and represents a cylindrical-coordinate representation of colors.
+
+An HSL color value is specified with the hsl() function, which has the following syntax:
+
+hsl(hue, saturation, lightness)
+
+Hue is a degree on the color wheel (from 0 to 360) - 0 (or 360) is red, 120 is green, 240 is blue. Saturation is a percentage value; 0% means a shade of gray and 100% is the full color. Lightness is also a percentage; 0% is black, 100% is white.
+HSLA Colors
+HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity of the object.
+
+An HSLA color value is specified with the hsla() function, which has the following syntax:
+
+hsla(hue, saturation, lightness, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).

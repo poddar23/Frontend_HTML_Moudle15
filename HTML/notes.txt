@@ -1,0 +1,92 @@
+Inline Elements :Inline Element are those elements, which differentiate 
+Tags-
+1. <Details>: It is used to define additional details.
+2. <Summary?:It is used to define a heading for the <details> elements.
+
+Entities - HTML character entities are used as a replacement of reserved character in HTML. You can replace characters that are not present on your keyboard by entites
+
+HTML Table : HTML table tag is used to display data in tabular form(row * column). There can be many columns in a row.
+What is HTML Table?
+Ans. An HTML table is created using the <table> tag. Inside this tag you use : 
+<tr> to define table row
+<th> for table header,
+<td> for the table data cells
+Ordered List 
+<ol>
+<li>
+</ol>
+Unordered List 
+<ul>
+<li>
+
+Image Maps
+-The HTML <map> tag define an image .An image map is an image with clckable areas. The areas are defined with oneor more <area> tags. 
+
+Marquee
+- The<marquee> tag in HTML creates a scrolling text or image effect within a webpage. It allows content to move horizontally or vertically across the screen, providing a simple way to add dynamic movement to elements.Although this tag is deprecated in HTML5, it is still useful to understand its functionality for legacy projects.
+Syntax
+<marquee>
+     <!-- contents -->
+</marquee>
+Attributes of <marquee>
+The attributes of the <marquee> tag allow customization of the scrolling effect. They control aspects like direction, speed, size, and spacing of the content within the marquee.
+
+Anchor Tag
+- The  <a> tag in HTML, commonly known as the anchor tag, is used to create hyperlink.
+-The <a> tag defines a hyperlink, which is used to link from one page to another.
+
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+By default, links will appear as follows in all browsers:
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+Iframe
+Definition and Usage
+The <iframe> tag specifies an inline frame.
+
+An inline frame is used to embed another document within the current HTML document.
+
+Tip: Use CSS to style the <iframe> (see example below). 
+
+Tip: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the <iframe> is.
+
+Input
+ 
+The <input> Element
+The HTML <input> element is the most used form element.
+
+An <input> element can be displayed in many ways, depending on the type attribute.
+
+Here are some examples:
+
+Type	Description
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+Definition and Usage
+The <audio> tag is used to embed sound content in a document, such as music or other audio streams.
+
+The <audio> tag contains one or more <source> tags with different audio sources. The browser will choose the first source it supports.
+
+The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
+
+There are three supported audio formats in HTML: MP3, WAV, and OGG.
+Audio Format and Browser Support
+Browser	MP3	WAV	OGG
+Edge / IE	YES	YES*	YES*
+Chrome	YES	YES	YES
+Firefox	YES	YES	YES
+Safari	YES	YES	NO
+Opera	YES	YES	YES
+
+<embed>
+The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application.
+
+<figimage>
+Use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:

@@ -1,0 +1,130 @@
+1. HTML Basics
+
+
+1: Define HTML. What is the purpose of HTML in web development?
+Answer:
+HTML stands for HyperText Markup Language. It is the standard markup language used to create 
+and structure web pages. HTML provides the basic building blocksof a web page by defining
+elements such as headings, paragraphs, images, links, and tables.Its main purpose is to structure 
+content on the web so that browsers can display it properly.
+
+
+2: Explain the basic structure of an HTML document. Identify the mandatory tags and their purposes.
+Answer:
+
+
+A basic HTML document has the following structure:
+
+<!DOCTYPE html>           <!-- Defines the HTML version -->
+<html>                    <!-- Root element of the page -->
+  <head>                  <!-- Metadata and linked resources -->
+    <title>Page Title</title> <!-- Title shown in browser tab -->
+  </head>
+  <body>                  <!-- Visible content of the web page -->
+    <h1>Hello World</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+
+
+3: What is the difference between block-level elements and inline elements in HTML? Provide examples of each.
+
+Answer:
+
+Block-level elements take up the full width of their parent container and start on a new line.
+Examples: <div>, <p>, <h1>, <ul>, <section>
+
+Inline elements do not start on a new line; they flow within the content and only take up as much width as necessary.
+Examples: <span>, <a>, <img>, <strong>, <em>
+
+
+
+4: Discuss the role of semantic HTML. Why is it important for accessibility and SEO? Provide examples of semantic elements.
+
+Answer:
+Semantic HTML uses tags that clearly describe the meaning and purpose of the content, rather than just its appearance.
+
+Importance:
+
+Improves accessibility: Screen readers and assistive technologies understand the structure better.
+
+Enhances SEO: Search engines can better index and rank pages.
+
+Improves code readability and maintainability.
+
+
+
+2. HTML Forms
+
+
+1: What are HTML forms used for? Describe the purpose of the input, textarea, select, and button elements.
+Answer:
+HTML forms are used to collect user input and send it to a server for processing, such as submitting login details, feedback, or survey responses.
+
+
+
+2:Explain the difference between the GET and POST methods in form submission. When should each be used?
+
+Answer:
+
+Feature  	   GET Method	                                      POST Method
+Visibility	   Appends form data to the URL (visible)	          Sends data in the request body (hidden)
+Data Limit	   Limited to URL length (~2048 characters)	          No size limit for data
+Use Case	   Safe actions like search or filter	              Sensitive data like login or register
+Bookmarking	   Can be bookmarked and shared	                      Cannot be bookmarked
+Security	   Less secure (data in URL)	                      More secure for confidential data
+
+
+ 3: What is the purpose of the label element in a form, and how does it improve accessibility?
+Answer:
+The <label> element defines a label for a form control like <input> or <textarea>. It improves usability and accessibility.
+
+
+
+3.HTML Tables
+
+1: Explain the structure of an HTML table and the purpose of each of the following elements: <table>, <tr>, <th>, <td>, and <thead>.
+Answer:
+
+An HTML table is used to display tabular data in rows and columns.
+Key elements:
+
+<table>:
+The main container that defines a table.
+
+<tr> (Table Row):
+Represents a single row in the table. Each row can contain cells (<th> or <td>).
+
+<th> (Table Header Cell):
+Defines a header cell which is typically bold and centered by default. Used for column or row headings.
+
+<td> (Table Data Cell):
+Defines a standard data cell in the table containing text, numbers, or HTML content.
+
+<thead> (Table Head Section):
+Groups the header rows together. It improves structure, styling, and accessibility.
+
+
+What is the difference between colspan and rowspan in tables? Provide examples.
+Answer:
+
+colspan:
+Used to merge multiple columns into a single cell.
+
+rowspan:
+Used to merge multiple rows into a single cell.
+
+
+
+3: Why should tables be used sparingly for layout purposes? What is a better alternative?
+Answer:
+
+Using tables for layout is discouraged because:
+
+It creates rigid and hard-to-maintain designs.
+
+Tables are not responsive on mobile devices.
+
+It reduces accessibility for screen readers.
+
+Layout tables mix content with presentation, violating HTML best practices.
